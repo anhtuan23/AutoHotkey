@@ -184,7 +184,9 @@ NumpadUp::WheelDown
 ;!`::WheelUp
 
 ;;;;Middle click
-RAlt::MButton				
+RAlt::MButton
+#LButton::MButton
+				
 ^!x::
 MouseGetPos, xpos, ypos 
 Msgbox, The cursor is at X%xpos% Y%ypos%
